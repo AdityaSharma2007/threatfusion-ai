@@ -31,8 +31,9 @@ data/processed/final_email_dataset.csv
 
 ------------------------------------
 
-After downloading, folder structure should look like:
+## Expected folder structure
 
+```
 data/
 │
 ├── raw/
@@ -42,3 +43,4 @@ data/
 │   └── enron_data_fraud_labeled.csv
 │
 └── processed/
+```
