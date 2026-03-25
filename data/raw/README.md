@@ -33,20 +33,12 @@ data/processed/final_email_dataset.csv
 
 After downloading, folder structure should look like:
 
-data/raw/
+data/
 │
-├── phishing_email.csv
-├── spam.csv
-├── combined_data.csv
-└── enron_data_fraud_labeled.csv
-
-
-------------------------------------
-
-Then run preprocessing script:
-
-python src/data_preprocessing.py
-
-This will generate:
-
-data/processed/final_email_dataset.csv
+├── raw/
+│   ├── phishing_email.csv
+│   ├── spam.csv
+│   ├── combined_data.csv
+│   └── enron_data_fraud_labeled.csv
+│
+└── processed/
