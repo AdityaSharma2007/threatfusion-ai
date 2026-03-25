@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Data files
+data/raw/
+data/processed/
+
+# Model checkpoints
+*.h5
+*.pt

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>ThreatFusion AI</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>ThreatFusion AI</h1>
+
+<p>Email Threat Intelligence System</p>
+
+</div>
+
+<div class="container">
+
+<textarea id="emailtext"
+placeholder="Paste email text here"></textarea>
+
+<br>
+
+<button onclick="analyzeEmail()">Analyze Email</button>
+
+<div id="loading">
+Analyzing email threat...
+</div>
+
+<div id="resultBox">
+
+<h2 id="prediction"></h2>
+
+<p id="probability"></p>
+
+<p id="score"></p>
+
+<p id="level"></p>
+
+<div class="meter">
+
+<div id="meterFill"></div>
+
+</div>
+
+<div id="suspicious"></div>
+
+<div id="urls"></div>
+
+<div id="explanation"></div>
+
+</div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
